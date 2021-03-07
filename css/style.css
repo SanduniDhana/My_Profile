@@ -1,0 +1,1019 @@
+
+#stsec{
+    width:100vw;
+    height: 60vh;
+   background: url("../assert/pic/covermy.jpg");
+  background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.ab{
+    color: white;
+    font-size: 70px;
+    font-family: Cambria;
+    text-align: right;
+    transform: translate(-20%,60%);
+
+}
+.color{
+    color: orange;
+    font-size: 75px;
+    font-family: "Bell MT";
+}
+.ac{
+    color: orange;
+    text-align: right;
+    transform: translate(-20%,62%);
+}
+header>section>a>img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 45px;
+    top: 100px;
+    cursor: pointer;
+    transition-property: width,height;
+}
+header>section>a>img:hover{
+    width: 50px;
+    height: 50px;
+    transition-property: width,height;
+}
+header>main>a>img{
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 45px;
+    top: 140px;
+    cursor: pointer;
+    transition-property: width,height;
+}
+header>main>a>img:hover{
+    width: 50px;
+    height: 50px;
+    transition-property: width,height;
+}
+header>s>a>img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 45px;
+    top: 180px;
+    cursor: pointer;
+    transition-property: width,height;
+}
+header>s>a>img:hover{
+    width: 50px;
+    height: 50px;
+    transition-property: width,height;
+}
+header>i>a>img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 45px;
+    top: 220px;
+    cursor: pointer;
+    transition-property: width,height;
+}
+header>i>a>img:hover{
+    width: 50px;
+    height: 50px;
+    transition-property: width,height;
+}
+header>b>a>img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 45px;
+    top: 260px;
+    cursor: pointer;
+    transition-property: width,height;
+}
+header>b>a>img:hover{
+    width: 50px;
+    height: 50px;
+    transition-property: width,height;
+}
+header>h4>a>img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 45px;
+    top: 300px;
+    cursor: pointer;
+    transition-property: width,height;
+}
+header>h4>a>img:hover{
+    width: 50px;
+    height: 50px;
+    transition-property: width,height;
+}
+header>h5>a>img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 45px;
+    top: 340px;
+    cursor: pointer;
+    transition-property: width,height;
+}
+header>h5>a>img:hover{
+    width: 50px;
+    height: 50px;
+    transition-property: width,height;
+}
+header>h6>a>img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 45px;
+    top: 380px;
+    cursor: pointer;
+    transition-property: width,height;
+}
+header>h6>a>img:hover{
+    width: 50px;
+    height: 50px;
+    transition-property: width,height;
+}
+header>button{
+    position: relative;
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    left: 90px;
+    top: 130px;
+    color: white;
+    font-style: italic;
+    background-color: blue;
+    border-radius: 50px 50px 50px 50px;
+    cursor: pointer;
+}
+/*...........................................................................................................................*/
+body{
+    background-color: black;
+    overflow: visible;
+}
+body>h1 {
+    position: absolute;
+    color: coral;
+    font-size: 30px;
+    top: 600px;
+    left: 700px;
+    text-decoration: underline solid coral;
+}
+body>ul>Li{
+    position: relative;
+    display: block;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    left: 650px;
+    top: 90px;
+    list-style: none;
+}
+.a{
+    position: absolute;
+    width: 520px;
+    height: 520px;
+    top: 700px;
+    left: 1150px;
+    border-radius: 400px 400px 400px 400px;
+    cursor: pointer;
+}
+
+body>h2 {
+    position: absolute;
+    color: coral;
+    font-size: 30px;
+    top: 850px;
+    left: 90px;
+    text-decoration: underline solid coral;
+}
+
+body>h3 {
+    position: absolute;
+    color: yellow;
+    font-size: 27px;
+    top: 920px;
+    left: 90px;
+    text-decoration: underline solid yellow;
+}
+
+
+body>h4 {
+    position: absolute;
+    color: yellow;
+    font-size: 27px;
+    top: 1200px;
+    left: 90px;
+    text-decoration: underline solid yellow;
+}
+/*.bb{
+    width:500px;
+    height: 400px;
+    top: 2000px;
+    left: 20px;
+    background: url("../assert/pic/yellowcover.jpg");
+    background-repeat: no-repeat;
+}*/
+body>section>div{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border-radius: 100%;
+    position: absolute;
+    cursor: pointer;
+    left: 80px;
+    top: 1000px;
+}
+
+body>section>div::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+    border: 12px solid white;
+    border-top: 12px solid darkgoldenrod;
+    border-right: 12px solid darkgoldenrod;
+    border-bottom: 12px solid darkgoldenrod;
+    transform: rotate(45deg);
+}
+body>section>div>h1 {
+    color: darkgoldenrod;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+body>section>div>h2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 40px;
+    top: 140px;
+}
+body>section>div1{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border-radius: 100%;
+    position: absolute;
+    cursor: pointer;
+    left: 280px;
+    top: 1000px;
+}
+body>section>div1::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+    border: 12px solid white;
+    border-top: 12px solid darkgoldenrod;
+    border-right: 12px solid darkgoldenrod;
+    transform: rotate(45deg);
+}
+body>section>div1>h1 {
+    color: darkgoldenrod;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+body>section>div1>h2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 40px;
+    top: 140px;
+}
+body>section>div2{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border-radius: 100%;
+    position: absolute;
+    cursor: pointer;
+    left: 480px;
+    top: 1000px;
+}
+body>section>div2::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+    border: 12px solid white;
+    border-top: 12px solid darkgoldenrod;
+    border-right: 12px solid darkgoldenrod;
+    transform: rotate(45deg);
+}
+body>section>div2>h1 {
+    color: darkgoldenrod;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+body>section>div2>h2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 40px;
+    top: 140px;
+}
+body>section>div3{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border-radius: 100%;
+    position: absolute;
+    cursor: pointer;
+    left: 680px;
+    top: 1000px;
+}
+
+body>section>div3::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+    border: 12px solid white;
+    border-top: 12px solid darkgoldenrod;
+    border-right: 12px solid darkgoldenrod;
+    border-bottom: 12px solid darkgoldenrod;
+    transform: rotate(45deg);
+}
+body>section>div3>h1 {
+    color: darkgoldenrod;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+body>section>div3>h2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 40px;
+    top: 140px;
+}
+body>section>div4{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border-radius: 100%;
+    position: absolute;
+    cursor: pointer;
+    left: 880px;
+    top: 1000px;
+}
+body>section>div4::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+    border: 12px solid white;
+    border-top: 12px solid darkgoldenrod;
+    border-right: 12px solid darkgoldenrod;
+    transform: rotate(45deg);
+}
+body>section>div4>h1 {
+    color: darkgoldenrod;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+body>section>div4>h2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 40px;
+    top: 140px;
+}
+body>section>div5{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border-radius: 100%;
+    position: absolute;
+    cursor: pointer;
+    left: 80px;
+    top: 1290px;
+}
+
+body>section>div5::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+    border: 12px solid white;
+    border-top: 12px solid darkgoldenrod;
+    border-right: 12px solid darkgoldenrod;
+    border-bottom: 12px solid darkgoldenrod;
+    transform: rotate(45deg);
+}
+body>section>div5>h1 {
+    color: darkgoldenrod;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+body>section>div5>h2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 140px;
+}
+body>section>div6{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border-radius: 100%;
+    position: absolute;
+    cursor: pointer;
+    left: 280px;
+    top: 1290px;
+}
+
+body>section>div6::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+    border: 12px solid white;
+    border-top: 12px solid darkgoldenrod;
+    border-right: 12px solid darkgoldenrod;
+    border-bottom: 12px solid darkgoldenrod;
+    transform: rotate(45deg);
+}
+body>section>div6>h1 {
+    color: darkgoldenrod;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+body>section>div6>h2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 0px;
+    top: 140px;
+}
+body>section>div7{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border-radius: 100%;
+    position: absolute;
+    cursor: pointer;
+    left: 480px;
+    top: 1290px;
+}
+
+body>section>div7::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+    border: 12px solid white;
+    border-top: 12px solid darkgoldenrod;
+    border-right: 12px solid darkgoldenrod;
+    border-bottom: 12px solid darkgoldenrod;
+    transform: rotate(45deg);
+}
+body>section>div7>h1 {
+    color: darkgoldenrod;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+body>section>div7>h2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 140px;
+}
+body>section>div8{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border-radius: 100%;
+    position: absolute;
+    cursor: pointer;
+    left: 680px;
+    top: 1290px;
+}
+body>section>div8::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+    border: 12px solid white;
+    border-top: 12px solid darkgoldenrod;
+    border-right: 12px solid darkgoldenrod;
+    transform: rotate(45deg);
+}
+body>section>div8>h1 {
+    color: darkgoldenrod;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+body>section>div8>h2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 40px;
+    top: 140px;
+}
+body>section>div9{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border-radius: 100%;
+    position: absolute;
+    cursor: pointer;
+    left: 880px;
+    top: 1290px;
+}
+
+body>section>div9::before{
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+    border: 12px solid white;
+    border-top: 12px solid darkgoldenrod;
+    border-right: 12px solid darkgoldenrod;
+    border-bottom: 12px solid darkgoldenrod;
+    transform: rotate(45deg);
+}
+body>section>div9>h1 {
+    color: darkgoldenrod;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+body>section>div9>h2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 140px;
+}
+body>h5{
+    position: absolute;
+    color: coral;
+    font-size: 30px;
+    top: 1500px;
+    left: 590px;
+    text-decoration: underline solid coral;
+}
+.ed{
+    position: absolute;
+    width: 600px;
+    height: 500px;
+    top: 1600px;
+    left: 30px;
+}
+body>h6>ul>Li{
+    position: relative;
+    display: block;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    left: 650px;
+    top: 5px;
+    list-style: none;
+    background: palevioletred;
+    top: 900px;
+    left: 590px;
+    width: 350px;
+    height: 10px;
+}
+body>h7>ul>Li{
+    position: relative;
+    display: block;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    left: 650px;
+    top: 5px;
+    list-style: none;
+    background: lightseagreen;
+    top: 890px;
+    left: 690px;
+    width: 350px;
+    height: 10px;
+
+}
+body>h8>ul>Li{
+    position: relative;
+    display: block;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    left: 650px;
+    top: 5px;
+    list-style: none;
+    background:yellowgreen;
+    top: 890px;
+    left: 890px;
+    width: 350px;
+    height: 10px;
+}
+body>h9{
+    position: absolute;
+    color: coral;
+    font-size: 30px;
+    top: 2200px;
+
+    text-decoration: underline solid coral;
+}
+body>div10>img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: black;
+    top: 2300px;
+    left: 40px;
+    box-shadow: 5px 5px 5px 5px lightskyblue;
+    cursor: pointer;
+}
+body>div10>h1{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 2460px;
+
+}
+body>div11>img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: black;
+    top: 2300px;
+    left: 340px;
+    box-shadow: 5px 5px 5px 5px lightgreen;
+    cursor: pointer;
+}
+body>div11>h1{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left:340px;
+    top: 2460px;
+
+}
+body>div12>img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: black;
+    top: 2300px;
+    left: 640px;
+    box-shadow: 5px 5px 5px 5px saddlebrown;
+    cursor: pointer;
+}
+body>div12>h1{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left:580px;
+    top: 2460px;
+
+}
+body>div13>img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border: black;
+    top: 2300px;
+    left: 940px;
+    box-shadow: 5px 5px 5px 5px orangered;
+    cursor: pointer;
+}
+body>div13>h1{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    left:940px;
+    top: 2460px;
+
+}
+body>h10{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    top: 2550px;
+    left: 600px;
+    cursor: pointer;
+
+}
+.ba{
+    position: absolute;
+    width: 620px;
+    height: 620px;
+    top: 2600px;
+    left: -30px;
+    border-radius: 400px 400px 400px 400px;
+    cursor: pointer;
+}
+.tg{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left: 45px;
+    top: 2850px;
+    cursor: pointer;
+    transition-property: width,height;
+}
+.tg:hover{
+    width: 50px;
+    height: 50px;
+    transition-property: width,height;
+}
+.ga{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 30px;
+    top: 2690px;
+    cursor: pointer;
+    border-radius: 400px 400px 400px 400px;
+    transition-property: width,height;
+}
+.ga:hover{
+    width: 50px;
+    height: 50px;
+    transition-property: width,height;
+}
+.da{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 175px;
+    top: 2650px;
+    cursor: pointer;
+    border-radius: 400px 400px 400px 400px;
+    transition-property: width,height;
+}
+.da:hover{
+    width: 50px;
+    height: 50px;
+    transition-property: width,height;
+}
+.ra{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 325px;
+    top: 2690px;
+    cursor: pointer;
+    border-radius: 400px 400px 400px 400px;
+    transition-property: width,height;
+}
+.ra:hover{
+    width: 50px;
+    height: 50px;
+    transition-property: width,height;
+}
+.tr{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 430px;
+    top: 2800px;
+    cursor: pointer;
+    border-radius: 400px 400px 400px 400px;
+    transition-property: width,height;
+}
+.tr:hover{
+    width: 50px;
+    height: 50px;
+    transition-property: width,height;
+}
+.sh{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 325px;
+    top: 2950px;
+    cursor: pointer;
+    border-radius: 400px 400px 400px 400px;
+    transition-property: width,height;
+}
+.sh:hover{
+    width: 50px;
+    height: 50px;
+    transition-property: width,height;
+}
+.ph{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 170px;
+    top: 3020px;
+    cursor: pointer;
+    border-radius: 400px 400px 400px 400px;
+    transition-property: width,height;
+}
+.ph:hover{
+    width: 50px;
+    height: 50px;
+    transition-property: width,height;
+}
+.mu{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 30px;
+    top: 2990px;
+    cursor: pointer;
+    border-radius: 400px 400px 400px 400px;
+    transition-property: width,height;
+}
+.mu:hover{
+    width: 50px;
+    height: 50px;
+    transition-property: width,height;
+}
+body>h12{
+    position: absolute;
+    color: coral;
+    font-size: 30px;
+    top: 2690px;
+    left: 650px;
+    text-decoration: underline solid coral;
+}
+body>h13>textarea{
+    position: absolute;
+    top: 2770px;
+    left: 650px;
+    width: 800px;
+    height: 50px;
+
+}
+body>h14>textarea{
+    position: absolute;
+    top: 2860px;
+    left: 650px;
+    width: 800px;
+    height: 50px;
+
+}
+body>h15>textarea{
+    position: absolute;
+    top: 2950px;
+    left: 650px;
+    width: 800px;
+    height: 50px;
+
+}
+body>textarea{
+    position: absolute;
+    top: 3040px;
+    left: 650px;
+    width: 800px;
+    height: 200px;
+}
+body>h16>button{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    left: 980px;
+    top: 2000px;
+    color: white;
+    background-color: blue;
+    border-radius: 50px 50px 50px 50px;
+    cursor: pointer;
+}
+body>h17{
+    position: absolute;
+    color: coral;
+    font-size: 30px;
+    top: 3390px;
+    text-decoration: underline solid coral;
+}
+body>h18>ul>Li{
+    position: relative;
+    display: block;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    left: 550px;
+    top: 3400px;
+    list-style: none;
+    background:yellowgreen;
+    top: 2200px;
+    left: 550px;
+    width: 350px;
+    height: 10px;
+}
+/*--------------------------------------------footer------------------------------------------*/
+footer>h1>ul>Li{
+    position: relative;
+    display: block;
+    color: black;
+    padding: 10px;
+    font-size: 10px;
+    top: 3400px;
+    list-style: none;
+    background:orange;
+    top: 2200px;
+    width: 1440px;
+    height: 5px;
+}
+
+
